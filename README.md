@@ -1,3 +1,3 @@
 # todolist-v2
 
-version 2 of ToDo List app using MongoDB
+version 2 of ToDo List app using MongoDB Atlas and Heroku server
