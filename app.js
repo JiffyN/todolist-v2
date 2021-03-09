@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 //Connect to MongoDB
-mongoose.connect("mongodb+srv://admin-natallia:test123@cluster0.o7jkp.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://admin-natallia:<PASSWORD>@cluster0.o7jkp.mongodb.net/todolistDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
